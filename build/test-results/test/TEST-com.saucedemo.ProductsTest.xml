@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.saucedemo.ProductsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-01-15T21:40:08" hostname="DESKTOP-JNF79DP" time="1.742">
+  <properties/>
+  <testcase name="add item to cart()" classname="com.saucedemo.ProductsTest" time="1.742"/>
+  <system-out><![CDATA[00:40:05.945 [Test worker] INFO  com.saucedemo.BaseTest - Launching browser...
+00:40:06.982 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid d1f9ec5d-8d1f-4164-a712-5bbe399f3779 not found
+00:40:06.982 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not stop step: no step running
+00:40:08.533 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid d1f9ec5d-8d1f-4164-a712-5bbe399f3779 not found
+00:40:08.535 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not stop step: no step running
+00:40:08.536 [Test worker] INFO  com.saucedemo.BaseTest - Browser launched.
+00:40:08.561 [Test worker] INFO  com.saucedemo.BaseTest - Creating new browser context and page...
+00:40:08.577 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid 7ed95fcf-ab72-439a-88b7-3bb0958382a6 not found
+00:40:08.577 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not stop step: no step running
+00:40:08.854 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid 7ed95fcf-ab72-439a-88b7-3bb0958382a6 not found
+00:40:08.855 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not stop step: no step running
+00:40:08.855 [Test worker] INFO  com.saucedemo.BaseTest - Browser context and page created.
+00:40:08.858 [Test worker] INFO  com.saucedemo.ProductsTest - Setting up for product interaction test...
+00:40:08.858 [Test worker] INFO  com.saucedemo.BaseTest - Creating new browser context and page...
+00:40:08.872 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid 994b52ff-c34d-4948-92b1-e32c8f5b9dfa not found
+00:40:08.872 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not stop step: no step running
+00:40:09.075 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid 994b52ff-c34d-4948-92b1-e32c8f5b9dfa not found
+00:40:09.075 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not stop step: no step running
+00:40:09.075 [Test worker] INFO  com.saucedemo.BaseTest - Browser context and page created.
+00:40:09.076 [Test worker] INFO  com.saucedemo.ProductsTest - Login and Products pages initialized.
+00:40:09.078 [Test worker] INFO  com.saucedemo.ProductsTest - Starting 'add item to cart' test.
+00:40:09.079 [Test worker] INFO  com.saucedemo.pages.LoginPage - Attempting to log in as user: 'standard_user'
+00:40:09.081 [Test worker] INFO  com.saucedemo.pages.LoginPage - Navigating to login page: https://www.saucedemo.com/
+00:40:09.874 [Test worker] INFO  com.saucedemo.pages.LoginPage - Entering username: 'standard_user'
+00:40:09.934 [Test worker] INFO  com.saucedemo.pages.LoginPage - Entering password (hidden for security)
+00:40:09.963 [Test worker] INFO  com.saucedemo.pages.LoginPage - Clicking login button
+00:40:10.146 [Test worker] INFO  com.saucedemo.pages.LoginPage - Login attempt completed for user: 'standard_user'
+00:40:10.147 [Test worker] INFO  com.saucedemo.pages.ProductsPage - Adding item 'Sauce Labs Backpack' to cart
+00:40:10.224 [Test worker] INFO  com.saucedemo.pages.ProductsPage - Item 'Sauce Labs Backpack' added to cart
+00:40:10.238 [Test worker] INFO  com.saucedemo.pages.ProductsPage - Retrieved cart items count: '1'
+00:40:10.238 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid ea918f61-faec-4fdd-863f-982d9492f329 not found
+00:40:10.238 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not stop step: no step running
+00:40:10.238 [Test worker] INFO  com.saucedemo.ProductsTest - 'add item to cart' test completed.
+00:40:10.239 [Test worker] INFO  com.saucedemo.BaseTest - Closing browser context...
+00:40:10.299 [Test worker] INFO  com.saucedemo.BaseTest - Browser context closed.
+00:40:10.319 [Test worker] INFO  com.saucedemo.BaseTest - Closing browser...
+00:40:10.820 [Test worker] INFO  com.saucedemo.BaseTest - Browser closed.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

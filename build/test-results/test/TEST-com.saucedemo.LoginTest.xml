@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.saucedemo.LoginTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-01-15T21:40:02" hostname="DESKTOP-JNF79DP" time="3.011">
+  <properties/>
+  <testcase name="locked out user login()" classname="com.saucedemo.LoginTest" time="1.405"/>
+  <testcase name="successful login()" classname="com.saucedemo.LoginTest" time="1.584"/>
+  <system-out><![CDATA[00:39:59.763 [Test worker] INFO  com.saucedemo.BaseTest - Launching browser...
+00:40:00.807 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid 669c5036-ea46-4da1-b4e3-5e9ae3c8a7ab not found
+00:40:00.807 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not stop step: no step running
+00:40:02.279 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid 669c5036-ea46-4da1-b4e3-5e9ae3c8a7ab not found
+00:40:02.282 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not stop step: no step running
+00:40:02.286 [Test worker] INFO  com.saucedemo.BaseTest - Browser launched.
+00:40:02.320 [Test worker] INFO  com.saucedemo.BaseTest - Creating new browser context and page...
+00:40:02.343 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid 8757e8cf-f282-4402-b003-7624862f37c9 not found
+00:40:02.344 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not stop step: no step running
+00:40:02.631 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid 8757e8cf-f282-4402-b003-7624862f37c9 not found
+00:40:02.631 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not stop step: no step running
+00:40:02.631 [Test worker] INFO  com.saucedemo.BaseTest - Browser context and page created.
+00:40:02.633 [Test worker] INFO  com.saucedemo.LoginTest - Setting up for login test...
+00:40:02.634 [Test worker] INFO  com.saucedemo.BaseTest - Creating new browser context and page...
+00:40:02.646 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid d6958214-2b0a-480d-8592-8529c62d2c73 not found
+00:40:02.646 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not stop step: no step running
+00:40:02.898 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid d6958214-2b0a-480d-8592-8529c62d2c73 not found
+00:40:02.898 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not stop step: no step running
+00:40:02.899 [Test worker] INFO  com.saucedemo.BaseTest - Browser context and page created.
+00:40:02.900 [Test worker] INFO  com.saucedemo.LoginTest - Login page initialized.
+00:40:02.903 [Test worker] INFO  com.saucedemo.LoginTest - Starting 'locked out user login' test.
+00:40:02.905 [Test worker] INFO  com.saucedemo.pages.LoginPage - Attempting to log in as user: 'locked_out_user'
+00:40:02.906 [Test worker] INFO  com.saucedemo.pages.LoginPage - Navigating to login page: https://www.saucedemo.com/
+00:40:03.391 [Test worker] INFO  com.saucedemo.pages.LoginPage - Entering username: 'locked_out_user'
+00:40:03.528 [Test worker] INFO  com.saucedemo.pages.LoginPage - Entering password (hidden for security)
+00:40:03.573 [Test worker] INFO  com.saucedemo.pages.LoginPage - Clicking login button
+00:40:03.647 [Test worker] INFO  com.saucedemo.pages.LoginPage - Login attempt completed for user: 'locked_out_user'
+00:40:03.671 [Test worker] INFO  com.saucedemo.pages.LoginPage - Retrieved error message: 'Epic sadface: Sorry, this user has been locked out.'
+00:40:03.671 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid dd1f0f40-9fd5-401e-8849-b511d1f731a4 not found
+00:40:03.671 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not stop step: no step running
+00:40:03.672 [Test worker] INFO  com.saucedemo.LoginTest - 'locked out user login' test completed.
+00:40:03.672 [Test worker] INFO  com.saucedemo.BaseTest - Closing browser context...
+00:40:03.720 [Test worker] INFO  com.saucedemo.BaseTest - Browser context closed.
+00:40:03.745 [Test worker] INFO  com.saucedemo.BaseTest - Creating new browser context and page...
+00:40:03.762 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid 7f2746de-2fbe-4ad0-993b-f7d4afb64d44 not found
+00:40:03.762 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not stop step: no step running
+00:40:03.985 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid 7f2746de-2fbe-4ad0-993b-f7d4afb64d44 not found
+00:40:03.987 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not stop step: no step running
+00:40:03.988 [Test worker] INFO  com.saucedemo.BaseTest - Browser context and page created.
+00:40:03.991 [Test worker] INFO  com.saucedemo.LoginTest - Setting up for login test...
+00:40:03.991 [Test worker] INFO  com.saucedemo.BaseTest - Creating new browser context and page...
+00:40:03.999 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid 2b9caeb4-fba0-4154-bd29-5a74e54b0d67 not found
+00:40:04.000 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not stop step: no step running
+00:40:04.250 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid 2b9caeb4-fba0-4154-bd29-5a74e54b0d67 not found
+00:40:04.251 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not stop step: no step running
+00:40:04.251 [Test worker] INFO  com.saucedemo.BaseTest - Browser context and page created.
+00:40:04.251 [Test worker] INFO  com.saucedemo.LoginTest - Login page initialized.
+00:40:04.254 [Test worker] INFO  com.saucedemo.LoginTest - Starting 'successful login' test.
+00:40:04.256 [Test worker] INFO  com.saucedemo.pages.LoginPage - Attempting to log in as user: 'standard_user'
+00:40:04.259 [Test worker] INFO  com.saucedemo.pages.LoginPage - Navigating to login page: https://www.saucedemo.com/
+00:40:05.054 [Test worker] INFO  com.saucedemo.pages.LoginPage - Entering username: 'standard_user'
+00:40:05.122 [Test worker] INFO  com.saucedemo.pages.LoginPage - Entering password (hidden for security)
+00:40:05.148 [Test worker] INFO  com.saucedemo.pages.LoginPage - Clicking login button
+00:40:05.269 [Test worker] INFO  com.saucedemo.pages.LoginPage - Login attempt completed for user: 'standard_user'
+00:40:05.270 [Test worker] INFO  com.saucedemo.LoginTest - 'successful login' test completed.
+00:40:05.271 [Test worker] INFO  com.saucedemo.BaseTest - Closing browser context...
+00:40:05.327 [Test worker] INFO  com.saucedemo.BaseTest - Browser context closed.
+00:40:05.341 [Test worker] INFO  com.saucedemo.BaseTest - Closing browser...
+00:40:05.931 [Test worker] INFO  com.saucedemo.BaseTest - Browser closed.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.saucedemo.CheckoutTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-01-15T21:39:54" hostname="DESKTOP-JNF79DP" time="4.817">
+  <properties/>
+  <testcase name="verify item in cart before checkout()" classname="com.saucedemo.CheckoutTest" time="2.664"/>
+  <testcase name="successful checkout of an item()" classname="com.saucedemo.CheckoutTest" time="1.918"/>
+  <system-out><![CDATA[00:39:39.822 [Test worker] INFO  com.saucedemo.BaseTest - Launching browser...
+00:39:52.381 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid da497bae-198e-4ec8-b212-0ba1aba9f23f not found
+00:39:52.390 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not stop step: no step running
+00:39:54.164 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid da497bae-198e-4ec8-b212-0ba1aba9f23f not found
+00:39:54.166 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not stop step: no step running
+00:39:54.166 [Test worker] INFO  com.saucedemo.BaseTest - Browser launched.
+00:39:54.301 [Test worker] INFO  com.saucedemo.BaseTest - Creating new browser context and page...
+00:39:54.330 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid 2b27ac0f-0950-4ac3-92a6-3bd160965d39 not found
+00:39:54.330 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not stop step: no step running
+00:39:54.702 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid 2b27ac0f-0950-4ac3-92a6-3bd160965d39 not found
+00:39:54.702 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not stop step: no step running
+00:39:54.702 [Test worker] INFO  com.saucedemo.BaseTest - Browser context and page created.
+00:39:54.704 [Test worker] INFO  com.saucedemo.CheckoutTest - Setting up for checkout test...
+00:39:54.704 [Test worker] INFO  com.saucedemo.BaseTest - Creating new browser context and page...
+00:39:54.719 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid 1620c186-b2b4-438a-a87b-e06d925d5840 not found
+00:39:54.720 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not stop step: no step running
+00:39:54.915 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid 1620c186-b2b4-438a-a87b-e06d925d5840 not found
+00:39:54.915 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not stop step: no step running
+00:39:54.915 [Test worker] INFO  com.saucedemo.BaseTest - Browser context and page created.
+00:39:54.953 [Test worker] INFO  com.saucedemo.CheckoutTest - Login, Products, and Checkout pages initialized.
+00:39:54.963 [Test worker] INFO  com.saucedemo.CheckoutTest - Starting 'verify item in cart before checkout' test.
+00:39:55.015 [Test worker] INFO  com.saucedemo.pages.LoginPage - Attempting to log in as user: 'standard_user'
+00:39:55.018 [Test worker] INFO  com.saucedemo.pages.LoginPage - Navigating to login page: https://www.saucedemo.com/
+00:39:55.997 [Test worker] INFO  com.saucedemo.pages.LoginPage - Entering username: 'standard_user'
+00:39:56.060 [Test worker] INFO  com.saucedemo.pages.LoginPage - Entering password (hidden for security)
+00:39:56.080 [Test worker] INFO  com.saucedemo.pages.LoginPage - Clicking login button
+00:39:56.222 [Test worker] INFO  com.saucedemo.pages.LoginPage - Login attempt completed for user: 'standard_user'
+00:39:56.225 [Test worker] INFO  com.saucedemo.pages.ProductsPage - Adding item 'Sauce Labs Bike Light' to cart
+00:39:56.323 [Test worker] INFO  com.saucedemo.pages.ProductsPage - Item 'Sauce Labs Bike Light' added to cart
+00:39:56.345 [Test worker] INFO  com.saucedemo.pages.ProductsPage - Retrieved cart items count: '1'
+00:39:56.346 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid 82859940-1e93-4d50-8a39-6b141e70f1f7 not found
+00:39:56.346 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not stop step: no step running
+00:39:56.370 [Test worker] INFO  com.saucedemo.pages.CheckoutPage - Navigating to cart page.
+00:39:56.862 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid 82859940-1e93-4d50-8a39-6b141e70f1f7 not found
+00:39:56.862 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not stop step: no step running
+00:39:56.863 [Test worker] INFO  com.saucedemo.CheckoutTest - 'verify item in cart before checkout' test completed.
+00:39:56.870 [Test worker] INFO  com.saucedemo.BaseTest - Closing browser context...
+00:39:56.922 [Test worker] INFO  com.saucedemo.BaseTest - Browser context closed.
+00:39:57.195 [Test worker] INFO  com.saucedemo.BaseTest - Creating new browser context and page...
+00:39:57.203 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid 40c75c50-3112-46d5-9fce-9e033672ca26 not found
+00:39:57.204 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not stop step: no step running
+00:39:57.404 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid 40c75c50-3112-46d5-9fce-9e033672ca26 not found
+00:39:57.405 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not stop step: no step running
+00:39:57.405 [Test worker] INFO  com.saucedemo.BaseTest - Browser context and page created.
+00:39:57.407 [Test worker] INFO  com.saucedemo.CheckoutTest - Setting up for checkout test...
+00:39:57.407 [Test worker] INFO  com.saucedemo.BaseTest - Creating new browser context and page...
+00:39:57.419 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid 71455761-8c26-44e5-bd53-6172f88969da not found
+00:39:57.421 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not stop step: no step running
+00:39:57.615 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid 71455761-8c26-44e5-bd53-6172f88969da not found
+00:39:57.617 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not stop step: no step running
+00:39:57.617 [Test worker] INFO  com.saucedemo.BaseTest - Browser context and page created.
+00:39:57.617 [Test worker] INFO  com.saucedemo.CheckoutTest - Login, Products, and Checkout pages initialized.
+00:39:57.623 [Test worker] INFO  com.saucedemo.CheckoutTest - Starting 'successful checkout of an item' test.
+00:39:57.626 [Test worker] INFO  com.saucedemo.pages.LoginPage - Attempting to log in as user: 'standard_user'
+00:39:57.629 [Test worker] INFO  com.saucedemo.pages.LoginPage - Navigating to login page: https://www.saucedemo.com/
+00:39:58.111 [Test worker] INFO  com.saucedemo.pages.LoginPage - Entering username: 'standard_user'
+00:39:58.207 [Test worker] INFO  com.saucedemo.pages.LoginPage - Entering password (hidden for security)
+00:39:58.231 [Test worker] INFO  com.saucedemo.pages.LoginPage - Clicking login button
+00:39:58.331 [Test worker] INFO  com.saucedemo.pages.LoginPage - Login attempt completed for user: 'standard_user'
+00:39:58.331 [Test worker] INFO  com.saucedemo.pages.ProductsPage - Adding item 'Sauce Labs Backpack' to cart
+00:39:58.442 [Test worker] INFO  com.saucedemo.pages.ProductsPage - Item 'Sauce Labs Backpack' added to cart
+00:39:58.452 [Test worker] INFO  com.saucedemo.pages.ProductsPage - Retrieved cart items count: '1'
+00:39:58.453 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid 762a7d60-f9a1-488f-a964-236727a42621 not found
+00:39:58.453 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not stop step: no step running
+00:39:58.453 [Test worker] INFO  com.saucedemo.pages.CheckoutPage - Navigating to cart page.
+00:39:58.620 [Test worker] INFO  com.saucedemo.pages.CheckoutPage - Clicking checkout button.
+00:39:58.747 [Test worker] INFO  com.saucedemo.pages.CheckoutPage - Entering checkout information - First Name: 'John', Last Name: 'Doe', Postal Code: '12345'
+00:39:58.928 [Test worker] INFO  com.saucedemo.pages.CheckoutPage - Checkout information entered and continue button clicked.
+00:39:58.929 [Test worker] INFO  com.saucedemo.pages.CheckoutPage - Clicking finish button.
+00:39:59.042 [Test worker] INFO  com.saucedemo.pages.CheckoutPage - Retrieved thank you message: 'Thank you for your order!'
+00:39:59.042 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid 762a7d60-f9a1-488f-a964-236727a42621 not found
+00:39:59.042 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not stop step: no step running
+00:39:59.043 [Test worker] INFO  com.saucedemo.CheckoutTest - 'successful checkout of an item' test completed.
+00:39:59.045 [Test worker] INFO  com.saucedemo.BaseTest - Closing browser context...
+00:39:59.109 [Test worker] INFO  com.saucedemo.BaseTest - Browser context closed.
+00:39:59.142 [Test worker] INFO  com.saucedemo.BaseTest - Closing browser...
+00:39:59.750 [Test worker] INFO  com.saucedemo.BaseTest - Browser closed.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
